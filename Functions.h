@@ -1,3 +1,6 @@
+#ifndef FUNCTIONS_H
+#define FUNCTIONS_H
+
 #include <stdio.h>
 #include <string.h>
 
@@ -6,9 +9,6 @@ int t_cost;
 int bus_no;
 int num_of_seats;
 int seat_num[50];
-
-#ifndef FUNCTIONS_H
-#define FUNCTIONS_H
 
 //====all functions declaration====
 void login(void);
